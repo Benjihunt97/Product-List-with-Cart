@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/Benjihunt97/Product-List-with-Cart/main/product-list-with-cart-main/data.json';
+const url = '../data.json';
 const productList = document.getElementById('product-list');
 
 fetch(url)
